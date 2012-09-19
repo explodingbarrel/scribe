@@ -20,6 +20,9 @@
 #ifndef SCRIBE_ENV
 #define SCRIBE_ENV
 
+#include <sys/socket.h>
+#include <netinet/in.h>
+
 #include "thrift/protocol/TBinaryProtocol.h"
 #include "thrift/server/TNonblockingServer.h"
 #include "thrift/concurrency/ThreadManager.h"
